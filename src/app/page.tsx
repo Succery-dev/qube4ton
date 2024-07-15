@@ -8,7 +8,7 @@ import {
   logos, faqs, socialMediaLinks, footerLinks 
 } from "./constants/homepageData";
 
-const bgColor = "bg-purple-600";
+const bgColor = "bg-blue-600";
 
 const ArrowButton = ({ direction, onClick }: { direction: "left" | "right"; onClick: () => void }) => (
   <button
