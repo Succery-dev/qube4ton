@@ -1,53 +1,45 @@
 export const navLinks = [
   {
-    id: "#features",
-    label: "Features",
+    id: "#value",
+    label: "Value",
   },
   {
     id: "#voices",
     label: "Voices",
   },
   {
-    id: "#aboutus",
-    label: "About Us",
-  },
-  {
-    id: "#contactus",
-    label: "Contact Us",
-  },
-  {
-    id: "#faq",
-    label: "FAQ",
+    id: "#about",
+    label: "About",
   },
 ];
 
 export const featuresForAdvertiser = [
   {
-    title: "①TonとEVMのエコシステムを繋ぐ",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    title: "①Bridging the TON and EVM ecosystems",
+    description: "We are developing an innovative advertising system that connects not only TON mini apps but also dapps from TON and EVM ecosystems.",
   },
   {
-    title: "②CPAやCPMを安価で設定可能",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    title: "②Affordable and appropriate advertising rates",
+    description: "User acquisition costs (CPA or CPM) are very competitive, ranging from 0.7 to 1.8 USD, allowing for effective marketing campaigns.",
   },
   {
-    title: "③TonやUSDT以外の通貨での支払いも受け付け",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    title: "③Accept multiple payments",
+    description: "We accept payments in a wide range of major cryptocurrencies and fiat currencies in addition to TON and USDT, making our system adaptable to various use cases.",
   },
 ];
 
 export const featuresForApp = [
   {
-    title: "①TonとEVMのエコシステムを繋ぐ",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    title: "①Offering diverse monetization methods",
+    description: "You can increase your monetization options by deploying simple bot-driven advertisements in your Ton apps and Telegram communities.",
   },
   {
-    title: "②CPAやCPMを安価で設定可能",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    title: "②Fair pricing structure",
+    description: "By utilizing the transparent and systematized Qube, we can significantly reduce intermediary margins.",
   },
   {
-    title: "③TonやUSDT以外の通貨での支払いも受け付け",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    title: "③Multiple payments",
+    description: "We accept payments in all major cryptocurrencies and fiat currencies in addition to TON and USDT, making our system adaptable to a wide range of use cases.",
   },
 ];
 
@@ -57,25 +49,6 @@ export const logos = [
   "/farcana.png",
   "/starheroes.png",
   "/gumi.png",
-];
-
-export const faqs = [
-  {
-    question: "How does your affiliate vetting process work?",
-    answer: "We have a rigorous vetting process to ensure we partner with high-quality, reputable affiliates across Asia. Each applicant undergoes thorough evaluation based on their audience demographics, content quality, past performance metrics, and adherence to our guidelines. Only top-tier affiliates with proven track records are approved.",
-  },
-  {
-    question: "Can I run customized affiliate campaigns?",
-    answer: "Absolutely. Our platform offers extensive customization options, allowing you to tailor affiliate campaigns based on specific goals, target audiences, reward structures, and more. You have full control over campaign parameters, creative assets, and tracking mechanisms to ensure optimal performance.",
-  },
-  {
-    question: "What kind of support do you provide?",
-    answer: "We pride ourselves on providing exceptional customer support. Our dedicated account managers are available to assist you throughout the entire process, from campaign setup to optimization and payout management. We also offer comprehensive onboarding resources, knowledge base articles, and timely technical support.",
-  },
-  {
-    question: "How are affiliate payouts handled?",
-    answer: "Our platform supports secure, transparent payouts in both fiat currencies and cryptocurrencies. Affiliates can choose their preferred payout method, and all transactions are recorded on the blockchain for enhanced transparency and auditability. Payouts are processed on a pre-defined schedule, ensuring timely compensation for your affiliate partners.",
-  },
 ];
 
 export const socialMediaLinks = [
