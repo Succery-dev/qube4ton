@@ -137,8 +137,8 @@ export default function Home() {
         {/* About Us */}
         <section id="about" className="py-20 px-10 md:px-20">
           <h1 className="text-xl md:text-3xl font-bold mb-10">About Us</h1>
-          <p className="text-lg font-semibold text-center underline">We have provided our product called <Link href="https://www.0xqube.xyz/" target="_blank" className="text-blue-600">Qube</Link> on EVM to more than 15 game projects so far, and have already established a network of 100,000 affiliates in the Asian region.</p>
-          <p className="text-lg font-semibold text-center underline">We have already secured grants totaling approximately 100k from Japanese game publishers such as gumi, double jump.tokyo, and the Arbitrum Foundation.</p>
+          <p className="text-lg font-semibold underline">We have provided our product called <Link href="https://www.0xqube.xyz/" target="_blank" className="text-blue-600">Qube</Link> on EVM to more than 15 game projects so far, and have already established a network of 100,000 affiliates in the Asian region.</p>
+          <p className="text-lg font-semibold underline">We have already secured grants totaling approximately 100k from Japanese game publishers such as gumi, double jump.tokyo, and the Arbitrum Foundation.</p>
         </section>
       </main>
 
