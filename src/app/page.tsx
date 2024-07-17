@@ -25,7 +25,7 @@ const FeatureSet = ({ title, features }: { title: string; features: { title: str
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
       {features.map((feature, index) => (
         <div key={index} className="flex flex-col gap-5 items-center">
-          <h3 className="text-md md:text-xl font-semibold">{feature.title}</h3>
+          <h3 className="text-md md:text-xl font-semibold lg:h-20 xl:h-14 2xl:h-10">{feature.title}</h3>
           <p className="text-sm md:text-lg">{feature.description}</p>
         </div>
       ))}
@@ -137,8 +137,8 @@ export default function Home() {
         {/* About Us */}
         <section id="about" className="py-20 px-10 md:px-20">
           <h1 className="text-xl md:text-3xl font-bold mb-10">About Us</h1>
-          <p className="text-lg font-semibold text-center underline">We have provided our product called <Link href="https://www.0xqube.xyz/" target="_blank" className="text-blue-600">Qube</Link> on EVM to more than 15 game projects so far, and have already established a network of 100,000 affiliates in the Asian region.</p>
-          <p className="text-lg font-semibold text-center underline">We have already secured grants totaling approximately 100k from Japanese game publishers such as gumi, double jump.tokyo, and the Arbitrum Foundation.</p>
+          <p className="text-lg font-semibold underline">We have provided our product called <Link href="https://www.0xqube.xyz/" target="_blank" className="text-blue-600">Qube</Link> on EVM to more than 15 game projects so far, and have already established a network of 100,000 affiliates in the Asian region.</p>
+          <p className="text-lg font-semibold underline">We have already secured grants totaling approximately 100k from Japanese game publishers such as gumi, double jump.tokyo, and the Arbitrum Foundation.</p>
         </section>
       </main>
 
