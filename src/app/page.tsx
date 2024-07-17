@@ -25,7 +25,7 @@ const FeatureSet = ({ title, features }: { title: string; features: { title: str
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
       {features.map((feature, index) => (
         <div key={index} className="flex flex-col gap-5 items-center">
-          <h3 className="text-md md:text-xl font-semibold">{feature.title}</h3>
+          <h3 className="text-md md:text-xl font-semibold lg:h-20 xl:h-14 2xl:h-10">{feature.title}</h3>
           <p className="text-sm md:text-lg">{feature.description}</p>
         </div>
       ))}
